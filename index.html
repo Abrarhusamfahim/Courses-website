@@ -4,9 +4,170 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>University Website Design</title>
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="style.css">
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+      <!-- font awesome -->
+      <script src="https://kit.fontawesome.com/59893a3cb0.js" crossorigin="anonymous"></script>
 </head>
 <body>
+    <section class="header">
+    <!--navigation area -->
+      <nav>
+          <a href="index.html"><img src="images/logo.png"></a>
+          <div class="nav-links" id="navlinks">
+            <i class="fas fa-times" onclick="hidemenu()"></i>
+              <ul>
+                  <li><a href="#home">HOME</a></li>
+                  <li><a href="#about" >ABOUT</a></li>
+                  <li><a href="#course">COURSE</a></li>
+                  <li><a href="#blog">BLOG</a></li>
+                  <li><a href="#contact">CONTACT</a></li>
+              </ul>
+          </div>
+          <i class="fas fa-bars" onclick="showmenu()"></i>
+      </nav> 
+      <!-- text box area  -->
+      <div class="text-box" id="home" >
+          <h1>World's Biggest University</h1>
+          <p>Making website is now one of the easist thing in the World. you just need to learn HTML, CSS, <br> JAVASCRIPT, and you are good to go.</p>
+          <a href="" class="hero-btn" >Visit Us To know more</a>
+      </div>
+    </section>
+    <!--------------Course area----------- -->
+    <section class="course" id="course" >
+        <h1>Courses We Offer</h1>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam sed quod asperiores.</p>
+        <div class="row">
+            <div class="course-col">
+                <h3>Intermediate</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam delectus nemo repellat debitis quis accusamus facere quam a in expedita ipsum amet, eius sunt doloribus officiis facilis vel doloremque excepturi.</p>
+            </div>
+            <div class="course-col">
+                <h3>Degree</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam delectus nemo repellat debitis quis accusamus facere quam a in expedita ipsum amet, eius sunt doloribus officiis facilis vel doloremque excepturi.</p>
+            </div>
+            <div class="course-col">
+                <h3>Post Graduation</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam delectus nemo repellat debitis quis accusamus facere quam a in expedita ipsum amet, eius sunt doloribus officiis facilis vel doloremque excepturi.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- --------Campus area------- -->
+    <section class="campus">
+        <h1>Our Global Campus</h1>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam sed quod asperiores.</p>
+        <div class="row">
+            <div class="campus-col">
+                <img src="images/london.png">
+                <div class="layer">
+                    <h3>LONDON</h3>
+                </div>
+            </div>
+            <div class="campus-col">
+                <img src="images/newyork.png">
+                <div class="layer">
+                    <h3>NEW YORK</h3>
+                </div>
+            </div>
+            <div class="campus-col">
+                <img src="images/washington.png">
+                <div class="layer">
+                    <h3>WASHINGTON</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- facilities area -->
+    <section class="facilities" id="blog" >
+        <h1>Our facilities</h1>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam sed quod asperiores.</p>
+        <div class="row">
+            <div class="facilities-col">
+                <img src="images/library.png">
+                <h3>World Class Library</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis, voluptate officia adipisci ex maxime voluptatem vitae assumenda exercitationem porro? Dolorem fugit nesciunt saepe suscipit repellendus quasi quaerat expedita ipsam officiis!</p>
+            </div>
+            <div class="facilities-col">
+                <img src="images/basketball.png">
+                <h3>Largest Play Ground</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis, voluptate officia adipisci ex maxime voluptatem vitae assumenda exercitationem porro? Dolorem fugit nesciunt saepe suscipit repellendus quasi quaerat expedita ipsam officiis!</p>
+            </div>
+            <div class="facilities-col">
+                <img src="images/cafeteria.png">
+                <h3>Testy And Healthy Food</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis, voluptate officia adipisci ex maxime voluptatem vitae assumenda exercitationem porro? Dolorem fugit nesciunt saepe suscipit repellendus quasi quaerat expedita ipsam officiis!</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ------testimonials----- -->
+    <section class="testimonials">
+        <h1>What Our Student Says</h1>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam sed quod asperiores.</p>
+        <div class="row">
+            <div class="testimonial-col">
+                <img src="images/user1.jpg">
+                <div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea enim nostrum consectetur. Assumenda quis porro quos optio blanditiis eveniet quod laboriosam odio praesentium, non similique facilis cupiditate impedit adipisci magnam.</p>
+                    <h3>Christine Berkley</h3>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+            </div>
+            <div class="testimonial-col">
+                <img src="images/user2.jpg">
+                <div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea enim nostrum consectetur. Assumenda quis porro quos optio blanditiis eveniet quod laboriosam odio praesentium, non similique facilis cupiditate impedit adipisci magnam.</p>
+                    <h3>David Bayer</h3>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- -------Call to Action------- -->
+    <section class="cta" id="contact" >
+        <h1>Enroll For Our Various Online Courses <br>Anywhere From The World</h1>
+        <a href="" class="hero-btn" >CONTACT US</a>
+    </section>
+
+
+    <!-- ----------Footer area-------- -->
+    <section class="footer" id="about" >
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem delectus aliquid sed dignissimos voluptates, <br> corporis laudantium, perferendis eum aspernatur in a autem obcaecati maxime animi ab quaerat ut sapiente.</p>
+        <div class="icons">
+            <i class="fab fa-facebook-square"></i>
+            <i class="fab fa-twitter-square"></i>
+            <i class="fab fa-instagram-square"></i>
+            <i class="fab fa-linkedin"></i>
+            <p>Made with by <i class="far fa-heart"></i> Abrar Fahim 2021</p>
+        </div>
+    </section>
     
+    <!-- javascript for toggle menu -->
+    <script>
+        var navlinks = document.getElementById("navlinks");
+        function showmenu(){
+            navlinks.style.right = "0";
+        }
+        function hidemenu(){
+            navlinks.style.right = "-200px";
+        }
+    </script>
 </body>
 </html>
